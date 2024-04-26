@@ -1,0 +1,37 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+@import "../../../commons/common";
+
+.ann {
+  .annTitle {
+    @include commonPostTitle;
+  }
+  .annItems {
+    .annItem {
+      @include commonPostItem;
+      .annItemImage {
+        @include commonPostItemImage;
+      }
+      .annItemContent {
+        @include commonPostItemContent;
+        .annItemTitle {
+          @include commonPostItemTitle;
+        }
+        .annItemContentDetail {
+          @include commonPostItemContentDetail;
+        }
+        .annItemFooter {
+          @include commonPostItemFooter;
+        }
+        .annItemDateIcon {
+          @include commonPostItemDateIcon;
+        }
+        .annItemDate {
+          @include commonPostItemDate;
+        }
+        .annItemCategory {
+          @include commonPostItemCategory;
+        }
+      }
+    }
+  }
+}

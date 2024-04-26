@@ -1,0 +1,57 @@
+.eventsItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.eventsItem {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+
+.eventsDate {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #4ac49a;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+}
+
+.eventsDay {
+  color: #4ac49a;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.eventsMonth {
+  color: #4ac49a;
+}
+
+.eventsContent {
+  background: #d6f3e9 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  margin-left: 8px;
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+.eventsItemTitle {
+  margin-top: 14px;
+  margin-left: 16px;
+  font-weight: bold;
+}
+
+.eventsItemTime {
+  display: flex;
+  flex-direction: row;
+  margin-left: 16px;
+  margin-top: 14px;
+}
+
+.eventsIcon {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}

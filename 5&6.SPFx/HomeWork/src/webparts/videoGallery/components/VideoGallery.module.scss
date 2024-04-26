@@ -1,0 +1,17 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+@import "../../../commons/common";
+
+.videoGallery {
+  .videoGalleryTitle {
+    @include commonGalleryTitle;
+  }
+  .videoGalleryItems {
+    @include commonGalleryItems;
+    .videoGalleryItem {
+      @include commonGalleryItem;
+      img {
+        @include commonGalleryImage;
+      }
+    }
+  }
+}

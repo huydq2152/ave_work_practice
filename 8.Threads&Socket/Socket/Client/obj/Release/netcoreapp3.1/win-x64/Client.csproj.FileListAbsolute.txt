@@ -1,0 +1,5 @@
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\obj\Release\netcoreapp3.1\win-x64\Client.csproj.AssemblyReference.cache
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\obj\Release\netcoreapp3.1\win-x64\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\obj\Release\netcoreapp3.1\win-x64\Client.AssemblyInfoInputs.cache
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\obj\Release\netcoreapp3.1\win-x64\Client.AssemblyInfo.cs
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\obj\Release\netcoreapp3.1\win-x64\Client.csproj.CoreCompileInputs.cache

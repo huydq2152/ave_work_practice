@@ -1,0 +1,51 @@
+# Assignment
+Learn and practice the C Sharp propramming language.
+## Requirements
+There are ten files in the Data folder. Each file includes 499999 lines, each line includes ten strings and which is split with ';', each string includes ten letters. Find out the 10 most frequent strings from all ten data files and show them on the console. 
+
+The data format is shown in the figure below.
+![directory](./DataFormat.png) 
+
+You can find these files from 
+![directory](./Data.png) 
+
+1. Check out develop branch to your branch
+
+2. Create a class library project for the solution
+
+3. Refer the contract project to your class library project and Implement the interface IDataAnalyser
+
+4. IDataAnalyser description 
+
+![directory](./Interface.png) 
+
+5. Register your implementation to CSharpBasic project and run a project to get the test results. 
+
+![directory](./Example.png) 
+
+6. Merge your code to develop branch finally.
+
+7. The memory consumption **MUST** be less than 1G.
+
+8. Provide necessary output and information.
+
+9. Necessary Exception handling is required.
+
+10. **DO NOT** commit temp files to the repo.
+
+11. The code must be able to run on different environments.
+
+12. Add necessary comments for the key logic.
+
+## Tips:
+
+1.Strings should ignore Case, it means that when you meet 'AbCdD', 'ABCDD' and 'abcdd'， the count number should be 3
+
+2.GetHashCode() will generate a hash code for you, it should be helpful for you.
+
+3.CSharpBasic project's target framework is .NET Core 3.1
+
+4.We have created an example as your reference. But it only contains very basic functions, you should consider more than it.
+
+5.Test your program before submission.
+

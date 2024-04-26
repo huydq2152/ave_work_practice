@@ -1,0 +1,98 @@
+.how {
+  width: auto;
+}
+
+.bar {
+  display: inline-block;
+}
+.wrap-textfield {
+  border: 2px solid #999999;
+}
+.search-icon,
+.search-input {
+  display: inline-block;
+}
+.search-input {
+  border: 0;
+  outline: 0;
+  margin: 10px;
+  flex-grow: 1;
+  text-align: left;
+  font: normal normal normal 14px/16px Segoe UI;
+  letter-spacing: 0px;
+  color: #999999;
+}
+.search-icon {
+  margin-left: 11px;
+  margin-right: -3px;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}
+.element {
+  background-color: #636363;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 4px 4px 4px 12px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+}
+
+.element-active {
+  background-color: #4ac49a;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 4px 4px 4px 12px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+}
+
+.question {
+  margin: 10px;
+  overflow: hidden;
+  width: auto;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.questionexpand {
+  display: inline-block;
+  margin: 10px;
+  overflow: hidden;
+  width: auto;
+}
+.collapse {
+  width: 20px;
+  height: 20px;
+}
+
+.element:hover {
+  background-color: #4ac49a;
+  cursor: pointer;
+}
+
+.collapse:hover {
+  cursor: pointer;
+}
+.author {
+  display: inline-block;
+  margin-right: 10px;
+}
+.answer {
+  display: inline-block;
+}
+.answer-content {
+  background-color: #636363;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}

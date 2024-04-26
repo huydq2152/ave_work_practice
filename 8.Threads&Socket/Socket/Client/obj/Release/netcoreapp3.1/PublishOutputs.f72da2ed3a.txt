@@ -1,0 +1,10 @@
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\bin\Release\netcoreapp3.1\app.publish\Common.exe
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\bin\Release\netcoreapp3.1\app.publish\Client.exe
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\bin\Release\netcoreapp3.1\app.publish\Common.deps.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\bin\Release\netcoreapp3.1\app.publish\Common.runtimeconfig.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\bin\Release\netcoreapp3.1\app.publish\Client.dll
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\bin\Release\netcoreapp3.1\app.publish\Client.deps.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\bin\Release\netcoreapp3.1\app.publish\Client.runtimeconfig.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\bin\Release\netcoreapp3.1\app.publish\Client.pdb
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\bin\Release\netcoreapp3.1\app.publish\Common.dll
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Client\bin\Release\netcoreapp3.1\app.publish\Common.pdb

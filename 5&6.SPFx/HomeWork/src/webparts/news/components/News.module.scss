@@ -1,0 +1,37 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+@import "../../../commons/common";
+
+.new {
+  .newTitle {
+    @include commonPostTitle;
+  }
+  .newItems {
+    .newItem {
+      @include commonPostItem;
+      .newItemImage {
+        @include commonPostItemImage;
+      }
+      .newItemContent {
+        @include commonPostItemContent;
+        .newItemTitle {
+          @include commonPostItemTitle;
+        }
+        .newItemContentDetail {
+          @include commonPostItemContentDetail;
+        }
+        .newItemFooter {
+          @include commonPostItemFooter;
+        }
+        .newItemDateIcon {
+          @include commonPostItemDateIcon;
+        }
+        .newItemDate {
+          @include commonPostItemDate;
+        }
+        .newItemCategory {
+          @include commonPostItemCategory;
+        }
+      }
+    }
+  }
+}

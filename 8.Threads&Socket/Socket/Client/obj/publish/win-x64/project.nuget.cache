@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kJKmz4+t8V68dhsng0af8/3cplbfOv8t+FeaPhGXadrW75HIgUWjuqSZw6yHJjj9jGNq1SRxfJFs8wjY3NzhAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mike.dang\\Desktop\\HW8\\homeworktemplate09132022\\8.Threads&Socket\\Socket\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mike.dang\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.31\\microsoft.netcore.app.runtime.win-x64.3.1.31.nupkg.sha512",
+    "C:\\Users\\mike.dang\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.31\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.31.nupkg.sha512",
+    "C:\\Users\\mike.dang\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.31\\microsoft.aspnetcore.app.runtime.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,121 @@
+@mixin textStyle($_text-align, $_font, $_letter-spacing, $_color, $_opacity) {
+  text-align: $_text-align;
+  font: $_font; // font-style font-variant font-weight font-size/line-height font-family
+  letter-spacing: $_letter-spacing;
+  color: $_color;
+  opacity: $_opacity;
+}
+
+@mixin itemsTitle {
+  @include textStyle(
+    left,
+    normal normal 600 30px/32px Segoe UI,
+    0px,
+    #000000,
+    1
+  );
+}
+
+@mixin itemTitle {
+  @include textStyle(
+    left,
+    normal normal 600 16px/21px Segoe UI,
+    0px,
+    #444444,
+    1
+  );
+}
+
+@mixin itemContent {
+  @include textStyle(
+    left,
+    normal normal normal 14px/19px Segoe UI,
+    0px,
+    #444444,
+    1
+  );
+}
+
+@mixin leftSideBarTitle {
+  @include itemsTitle;
+  margin-bottom: 8px;
+}
+
+@mixin rightSideBarTitle {
+  @include itemsTitle;
+  margin-bottom: 8px;
+}
+
+// Begin Gallery
+@mixin commonGalleryTitle {
+  @include leftSideBarTitle;
+}
+@mixin commonGalleryItems {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@mixin commonGalleryItem {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+@mixin commonGalleryImage {
+  max-width: 180px;
+  height: auto;
+}
+// End Gallery
+
+// Begin ListPost
+@mixin commonPostTitle {
+  @include leftSideBarTitle;
+}
+@mixin commonPostItem {
+  display: inline-flex;
+  margin: 12px 0px;
+}
+@mixin commonPostItemImage {
+  display: inline;
+  margin-right: 20px;
+}
+@mixin commonPostItemContent {
+  display: inline;
+  margin-right: 20px;
+}
+@mixin commonPostItemTitle {
+  @include itemTitle;
+  margin-bottom: 10px;
+}
+@mixin commonPostItemContentDetail {
+  @include itemContent;
+  overflow: hidden;
+  height: 30%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+@mixin commonPostItemFooter {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@mixin commonPostItemDateIcon {
+  display: inline-block;
+  margin-right: 10px;
+  align-items: center;
+}
+@mixin commonPostItemDate {
+  display: inline-block;
+  margin-right: 30px;
+  white-space: nowrap;
+}
+@mixin commonPostItemCategory {
+  display: inline-block;
+  margin-right: 30px;
+  background-color: #e4e6e8;
+  padding: 8px 24px;
+  border-radius: 20px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+// End ListPost

@@ -1,0 +1,14 @@
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\bin\Debug\netcoreapp3.1\Common.exe
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\bin\Debug\netcoreapp3.1\Common.runtimeconfig.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\bin\Debug\netcoreapp3.1\Common.runtimeconfig.dev.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\obj\Debug\netcoreapp3.1\Common.csproj.AssemblyReference.cache
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\obj\Debug\netcoreapp3.1\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\obj\Debug\netcoreapp3.1\Common.dll
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\obj\Debug\netcoreapp3.1\Common.pdb
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\Socket\Common\obj\Debug\netcoreapp3.1\Common.genruntimeconfig.cache

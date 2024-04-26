@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "annoucements-client-side-solution",
+    "id": "16b3e2c3-b89e-40e1-a8bf-dfc670d25d41",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Annoucements description"
+      },
+      "longDescription": {
+        "default": "Annoucements description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "annoucements Feature",
+        "description": "The feature that activates elements of the annoucements solution.",
+        "id": "3baba41a-b4b0-4511-a7be-82ab8949c0e8",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/annoucements.sppkg"
+  }
+}

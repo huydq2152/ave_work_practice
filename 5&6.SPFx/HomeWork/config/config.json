@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "annoucements-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/annoucements/AnnoucementsWebPart.js",
+          "manifest": "./src/webparts/annoucements/AnnoucementsWebPart.manifest.json"
+        }
+      ]
+    },
+    "navigation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/navigation/NavigationWebPart.js",
+          "manifest": "./src/webparts/navigation/NavigationWebPart.manifest.json"
+        }
+      ]
+    },
+    "quick-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quickLinks/QuickLinksWebPart.js",
+          "manifest": "./src/webparts/quickLinks/QuickLinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/news/NewsWebPart.js",
+          "manifest": "./src/webparts/news/NewsWebPart.manifest.json"
+        }
+      ]
+    },
+    "image-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/imageGallery/ImageGalleryWebPart.js",
+          "manifest": "./src/webparts/imageGallery/ImageGalleryWebPart.manifest.json"
+        }
+      ]
+    },
+    "video-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/videoGallery/VideoGalleryWebPart.js",
+          "manifest": "./src/webparts/videoGallery/VideoGalleryWebPart.manifest.json"
+        }
+      ]
+    },
+    "event-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/event/EventWebPart.js",
+          "manifest": "./src/webparts/event/EventWebPart.manifest.json"
+        }
+      ]
+    },
+    "how-do-i-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/howDoI/HowDoIWebPart.js",
+          "manifest": "./src/webparts/howDoI/HowDoIWebPart.manifest.json"
+        }
+      ]
+    },
+    "document-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentGallery/DocumentGalleryWebPart.js",
+          "manifest": "./src/webparts/documentGallery/DocumentGalleryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AnnoucementsWebPartStrings": "lib/webparts/annoucements/loc/{locale}.js",
+    "NavigationWebPartStrings": "lib/webparts/navigation/loc/{locale}.js",
+    "QuickLinksWebPartStrings": "lib/webparts/quickLinks/loc/{locale}.js",
+    "NewsWebPartStrings": "lib/webparts/news/loc/{locale}.js",
+    "ImageGalleryWebPartStrings": "lib/webparts/imageGallery/loc/{locale}.js",
+    "VideoGalleryWebPartStrings": "lib/webparts/videoGallery/loc/{locale}.js",
+    "EventWebPartStrings": "lib/webparts/event/loc/{locale}.js",
+    "HowDoIWebPartStrings": "lib/webparts/howDoI/loc/{locale}.js",
+    "DocumentGalleryWebPartStrings": "lib/webparts/documentGallery/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,75 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+@import "../../../commons/common";
+
+.events {
+  .eventsTitle {
+    @include rightSideBarTitle;
+  }
+  .eventsItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    .eventsItem {
+      display: flex;
+      flex-direction: row;
+      margin-top: 12px;
+      .eventsDate {
+        display: flex;
+        flex-direction: column;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        border: 3px solid #4ac49a;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        .eventsDay {
+          @include textStyle(
+            center,
+            normal normal 500 26px/18px Segoe UI,
+            0px,
+            #4ac49a,
+            1
+          );
+          margin-bottom: 10px;
+        }
+        .eventsMonth {
+          @include textStyle(
+            center,
+            normal normal normal 16px/18px Segoe UI,
+            0px,
+            #4ac49a,
+            1
+          );
+        }
+      }
+
+      .eventsContent {
+        display: flex;
+        flex-direction: column;
+        background: #d6f3e9 0% 0% no-repeat padding-box;
+        border-radius: 2px;
+        margin-left: 8px;
+        flex-grow: 1;
+        margin-right: 20px;
+        .eventsItemTitle {
+          @include itemTitle;
+          margin-top: 14px;
+          margin-left: 16px;
+        }
+        .eventsItemTime {
+          display: flex;
+          flex-direction: row;
+          margin-left: 16px;
+          margin-top: 14px;
+          .eventsIcon {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+          }
+          .eventsItemStartEnd {
+            @include itemContent;
+          }
+        }
+      }
+    }
+  }
+}

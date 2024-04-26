@@ -1,0 +1,62 @@
+* {
+    background-color: rgb(234, 234, 126);
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 20px;
+}
+
+.col-3 {
+    width: calc(100%/10*3);
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.container {
+    padding-right: 10%;
+    padding-left: 10%;
+    position: relative
+}
+
+@media (min-width: 650px) {
+    .changeColor {
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+.per_info_img,
+.per_info {
+    display: inline-block;
+}
+
+.project {
+    min-width: 300px;
+    background-color: white;
+    margin: 12px;
+    border-radius: 12px;
+}
+
+.project_info {
+    background-color: white;
+}
+
+.project_info * {
+    background-color: white;
+}
+
+.prj_title {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.prj_detail {
+    overflow-wrap: break-word;
+}

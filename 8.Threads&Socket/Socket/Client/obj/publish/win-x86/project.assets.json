@@ -1,0 +1,198 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      }
+    },
+    ".NETCoreApp,Version=v3.1/win-x86": {
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mike.dang\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mike.dang\\Desktop\\HW8\\homeworktemplate09132022\\8.Threads&Socket\\Socket\\Client\\Client.csproj",
+      "projectName": "Client",
+      "projectPath": "C:\\Users\\mike.dang\\Desktop\\HW8\\homeworktemplate09132022\\8.Threads&Socket\\Socket\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\mike.dang\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mike.dang\\Desktop\\HW8\\homeworktemplate09132022\\8.Threads&Socket\\Socket\\Client\\obj\\publish\\win-x86\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mike.dang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://proget.avepoint.net/nuget/avepoint": {},
+        "https://proget.avepoint.net/nuget/nuget.org": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\mike.dang\\Desktop\\HW8\\homeworktemplate09132022\\8.Threads&Socket\\Socket\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\mike.dang\\Desktop\\HW8\\homeworktemplate09132022\\8.Threads&Socket\\Socket\\Common\\Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+            "version": "[3.1.31, 3.1.31]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x86",
+            "version": "[3.1.31, 3.1.31]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+            "version": "[3.1.31, 3.1.31]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NETCore.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/avepoint/FindPackagesById()?id='Microsoft.NETCore.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NETCore.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/nuget.org/FindPackagesById()?id='Microsoft.NETCore.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NETCore.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/nuget.org/FindPackagesById()?id='Microsoft.NETCore.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.WindowsDesktop.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/avepoint/FindPackagesById()?id='Microsoft.WindowsDesktop.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.WindowsDesktop.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/avepoint/FindPackagesById()?id='Microsoft.WindowsDesktop.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NETCore.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/avepoint/FindPackagesById()?id='Microsoft.NETCore.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/avepoint/FindPackagesById()?id='Microsoft.AspNetCore.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/avepoint/FindPackagesById()?id='Microsoft.AspNetCore.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.WindowsDesktop.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/nuget.org/FindPackagesById()?id='Microsoft.WindowsDesktop.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.WindowsDesktop.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/nuget.org/FindPackagesById()?id='Microsoft.WindowsDesktop.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/nuget.org/FindPackagesById()?id='Microsoft.AspNetCore.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x86"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.App.Runtime.win-x86' from remote source 'https://proget.avepoint.net/nuget/nuget.org/FindPackagesById()?id='Microsoft.AspNetCore.App.Runtime.win-x86'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x86"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+import Image from "../Base/Image.jsx"
+export const videoGallery = [
+    {
+        id:0,
+        link:Image.video
+    },
+    {
+        id:1,
+        link:Image.video_1
+    },
+    {
+        id:2,
+        link:Image.video_2
+    },
+    {
+        id:3,
+        link:Image.video_3
+    },
+    {
+        id:4,
+        link:Image.video
+    },
+    {
+        id:5,
+        link:Image.video_3
+    },
+    {
+        id:6,
+        link:Image.video_1
+    },
+    {
+        id:7,
+        link:Image.video_2
+    }
+]

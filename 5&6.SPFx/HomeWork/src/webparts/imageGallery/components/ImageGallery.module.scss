@@ -1,0 +1,17 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+@import "../../../commons/common";
+
+.imageGallery {
+  .imageGalleryTitle {
+    @include commonGalleryTitle;
+  }
+  .imageGalleryItems {
+    @include commonGalleryItems;
+    .imageGalleryItem {
+      @include commonGalleryItem;
+      img {
+        @include commonGalleryImage;
+      }
+    }
+  }
+}

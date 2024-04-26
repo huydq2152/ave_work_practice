@@ -1,0 +1,35 @@
+import Image from "../Base/Image.jsx"
+export const imageGallery = [
+    {
+        id:0,
+        link:Image.image_gallery
+    },
+    {
+        id:1,
+        link:Image.image_gallery_1
+    },
+    {
+        id:2,
+        link:Image.image_gallery_2
+    },
+    {
+        id:3,
+        link:Image.image_gallery_3
+    },
+    {
+        id:4,
+        link:Image.image_gallery
+    },
+    {
+        id:5,
+        link:Image.image_gallery_2
+    },
+    {
+        id:6,
+        link:Image.image_gallery_3
+    },
+    {
+        id:7,
+        link:Image.image_gallery_1
+    }
+]

@@ -1,0 +1,143 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+@import "../../../commons/common";
+
+.hdi {
+  .hdiTitle {
+    @include rightSideBarTitle;
+  }
+  .hdiSearch {
+    border: 2px solid #999999;
+    .hdiSearchIcon {
+      display: inline-block;
+      margin-left: 11px;
+      margin-right: -3px;
+    }
+    .hdiSearchIcon:hover {
+      cursor: pointer;
+    }
+    .hdiSearchInput {
+      display: inline-block;
+      border: 0;
+      outline: 0;
+      margin: 10px;
+      flex-grow: 1;
+      @include itemContent;
+    }
+  }
+  .hdiItems {
+    .hdiItem {
+      .hdiItemElement:hover > .hdiItemCollapse {
+        background-color: #4ac49a;
+        cursor: pointer;
+      }
+      .hdiItemElement:hover > .hdiItemQuestion {
+        background-color: #4ac49a;
+        cursor: pointer;
+      }
+      .hdiItemElement:hover {
+        background-color: #4ac49a;
+        cursor: pointer;
+      }
+      .hdiItemElement {
+        background-color: #636363;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        overflow: hidden;
+        align-items: center;
+        .hdiItemCollapse {
+          display: inline-block;
+          background-color: #636363;
+          border: 0;
+          width: 15px;
+          height: 15px;
+          margin-left: 5px;
+        }
+        .hdiItemCollapse:hover {
+          cursor: pointer;
+        }
+        .hdiItemQuestionexpand {
+          display: inline-block;
+          margin: 10px;
+          overflow: hidden;
+          width: auto;
+        }
+        .hdiItemQuestion {
+          display: inline-block;
+          margin: 10px;
+          overflow: hidden;
+          width: auto;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1; /* number of lines to show */
+          line-clamp: 1;
+          -webkit-box-orient: vertical;
+        }
+      }
+
+      .hdiItemElementActive {
+        background-color: #4ac49a;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        overflow: hidden;
+        align-items: center;
+        .hdiItemCollapse {
+          display: inline-block;
+          background-color: #4ac49a;
+          border: 0;
+          width: 15px;
+          height: 15px;
+          margin-left: 5px;
+        }
+        .hdiItemCollapse:hover {
+          cursor: pointer;
+        }
+        .hdiItemQuestionexpand {
+          display: inline-block;
+          margin: 10px;
+          overflow: hidden;
+          width: auto;
+        }
+        .hdiItemQuestion {
+          display: inline-block;
+          margin: 10px;
+          overflow: hidden;
+          width: auto;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1; /* number of lines to show */
+          line-clamp: 1;
+          -webkit-box-orient: vertical;
+        }
+      }
+
+      .hdiItemAnswerContent {
+        background-color: #636363;
+        border: 0;
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        .hdiItemAuthor {
+          display: inline-block;
+          margin-right: 10px;
+        }
+        .hdiItemAnswer {
+          display: inline-block;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}

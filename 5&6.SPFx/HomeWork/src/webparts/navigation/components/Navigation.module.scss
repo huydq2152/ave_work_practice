@@ -1,0 +1,17 @@
+.nav {
+  box-sizing: border-box;
+  .navLogo {
+    float: left;
+    height: 62px;
+    width: 62px;
+  }
+  .navItems {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navItem {
+    display: inline-block;
+    padding: 17px 24px;
+  }
+}

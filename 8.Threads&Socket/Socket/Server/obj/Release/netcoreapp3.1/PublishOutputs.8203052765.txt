@@ -1,0 +1,15 @@
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Common.exe
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Client.exe
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Server.exe
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Client.deps.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Client.runtimeconfig.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Common.deps.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Common.runtimeconfig.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Server.dll
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Server.deps.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Server.runtimeconfig.json
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Server.pdb
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Client.dll
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Common.dll
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Client.pdb
+C:\Users\mike.dang\Desktop\HW8\homeworktemplate09132022\8.Threads&Socket\RunProject\Common.pdb

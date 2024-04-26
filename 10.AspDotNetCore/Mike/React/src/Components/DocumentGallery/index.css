@@ -1,0 +1,52 @@
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #c2c9d2;
+}
+
+.documentGallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.documentGalleryTitle {
+    margin-bottom: 16px;
+}
+
+.documentGalleryCategories {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.document {
+    min-width: 45%;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    max-height: 240px;
+}
+
+.documentTitle {
+    margin-bottom: 16px;
+}
+
+.documentItems {
+    overflow-y: scroll;
+    max-height: 160px;
+}
+
+.documentItem {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.documentItemTitle {
+    margin-left: 10px;
+}

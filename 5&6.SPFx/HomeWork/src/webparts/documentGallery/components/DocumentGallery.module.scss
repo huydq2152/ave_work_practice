@@ -1,0 +1,65 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+@import "../../../commons/common";
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #888;
+}
+.documentGallery {
+  display: flex;
+  flex-direction: column;
+  .documentGalleryTitle {
+    @include itemsTitle;
+    margin-bottom: 16px;
+  }
+  .documentGalleryItems {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .document {
+      min-width: 45%;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      max-height: 240px;
+      .documentTitle {
+        @include textStyle(
+          left,
+          normal normal 600 16px/21px Segoe UI,
+          0px,
+          #444444,
+          1
+        );
+        margin-bottom: 16px;
+      }
+      .documentItems {
+        overflow-y: scroll;
+        overflow-y: auto;
+        max-height: 160px;
+        border: #444444 1px;
+        .documentItem {
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 16px;
+          align-items: center;
+          img {
+            width: auto;
+          }
+          .documentItemTitle {
+            margin-left: 10px;
+            @include textStyle(
+              left,
+              normal normal normal 14px/19px Segoe UI,
+              0px,
+              #27313c,
+              1
+            );
+          }
+        }
+      }
+    }
+  }
+}

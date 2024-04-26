@@ -1,0 +1,19 @@
+.view-more, .view-less {
+  display: flex;
+  margin-top: 8px;
+}
+
+.view-more, .view-less:hover {
+  cursor: pointer;
+}
+
+.view-more-content, .view-less-content {
+  font: normal normal normal 14px/19px Segoe UI;
+  color: #0074bd;
+  margin-right: 8px;
+}
+
+.view-more-icon, .view-less-icon {
+  font: normal normal normal 14px/14px Font Awesome 5 Free;
+  color: #0074bd;
+}

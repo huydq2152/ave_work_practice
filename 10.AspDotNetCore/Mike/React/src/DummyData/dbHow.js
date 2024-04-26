@@ -1,0 +1,92 @@
+export const how =[
+    {   expand:1,
+        id:0,
+        author:"A",
+        question:"Why are so many abandoning 1?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:1,
+        author:"A",
+        question:"Why are so many abandoning 2 Why are so many abandoning?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:2,
+        author:"A",
+        question:"Why are so many abandoning 3?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:3,
+        author:"A",
+        question:"Why are so many abandoning 4?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:4,
+        author:"A",
+        question:"Why are so many abandoning 5? Why are so many abandoning",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:5,
+        author:"A",
+        question:"Why are so many abandoning 6?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:6,
+        author:"A",
+        question:"Why are so many abandoning 7 Why are so many abandoning Why are so many abandoning?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:7,
+        author:"A",
+        question:"Why are so many abandoning 8?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:8,
+        author:"A",
+        question:"Why are so many abandoning 9?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:9,
+        author:"A",
+        question:"Why are so many abandoning 10?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:10,
+        author:"A",
+        question:"Why are so many abandoning 11?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:11,
+        author:"A",
+        question:"Why are so many abandoning 12?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:12,
+        author:"A",
+        question:"Why are so many abandoning 13 Why are so many abandoning Why are so many abandoning?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:13,
+        author:"A",
+        question:"Why are so many abandoning 14 Why are so many abandoning?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+    {   expand:0,
+        id:14,
+        author:"A",
+        question:"Why are so many abandoning 15?",
+        answer:"There is a temptation to seek rational answers to these questions. The reason we are in this dark place is the failure of the rational to dominate in the Kremlin."
+    },
+];

@@ -1,0 +1,32 @@
+.quick-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.quick-content > * {
+  background-color: #0074bd;
+  display: inline-block;
+  color: #ffffff;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 120px;
+  height: 105px;
+  min-width: 110px;
+  min-height: 110px;
+}
+
+.quick-content:hover {
+  cursor: pointer;
+}
+
+.quick-item > img {
+  margin: auto;
+  margin-top: 20%;
+  display: block;
+}
+
+.quick-item > div {
+  text-align: center;
+  font-size: small;
+}
